@@ -17,7 +17,7 @@ Vázlatunk célja megnevezni az egymásra épülő alkalmazásainkat és megrajz
 - mobil alkalmazás készítése a webapira alapozva (Xamarin)
 - továbbfejlesztés: SPA: Single Page Application készítése a webapira alapozva (Blazor)
 ## Webalkalmazás
-Készítsünk egy (továbbfejleszthető) oktató alkalmazást, ahova
+Készítsünk egy (továbbfejleszthető) oktató alkalmazást, ahova 
 
 - oktatók tudnak tanfolyamokat feltölteni, valamint
 - hallgatók tudnak ilyen tanfolyamokat elvégezni
