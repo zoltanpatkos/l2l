@@ -8,6 +8,7 @@ namespace l2l.Data.Model
         public L2lDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<L2lDbContext>();
+            //TODO: Settings from App.settings
             builder.UseSqlite("Data Source=l2l.db;");
             return new L2lDbContext(builder.Options);
         }
