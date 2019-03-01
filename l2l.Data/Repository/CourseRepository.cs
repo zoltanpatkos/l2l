@@ -13,6 +13,12 @@ namespace l2l.Data.Repository
             var factory= new L2lDbContextFactory();
             db = factory.CreateDbContext(new string[] {});
         }
+
+        public CourseRepository(L2lDbContext db)
+        {
+            this.db = db ?? throw new ArgumentNullException(nameof(db));
+        }
+
         public void Add(Course course)
         {
             //TODO: Async fvként hogy kellene megírni
